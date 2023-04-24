@@ -1,0 +1,165 @@
+
+
+
+.textbox,
+.button {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 25%,
+    rgba(0, 0, 0, 0.6) 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.7);
+  width: 90%;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%);
+}
+
+.textbox,
+p {
+  color: #fff;
+  padding: 5% 25%;
+  margin: auto;
+  font-family: Lato;
+  font-weight: light;
+  font-size: 18px;
+}
+
+.button {
+  color: #fff;
+  max-width: 200px;
+  padding: 5px;
+  margin: auto;
+  font-family: Lato;
+  font-weight: light;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 200, 255, 0.6) 25%,
+    rgba(0, 200, 255, 0.6) 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.7);
+  width: 90%;
+}
+
+.home {
+  background: url("https://www.vacationrenter.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhotel.88351524.jpg&w=1920&q=75");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px; 
+  margin: 0 auto;
+}
+
+
+.main-form p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-form i {
+  margin-right: 10px;
+}
+
+.input-field {
+  margin-top: 20px;
+}
+
+.input-field label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field input[type="text"],
+.input-field input[type="number"] {
+  border: none;
+  border-bottom: 2px solid #555;
+  padding: 5px 0;
+  width: 100%;
+  font-size: 16px;
+  color: #555;
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+.input-field input[type="text"]:focus,
+.input-field input[type="number"]:focus {
+  outline: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.row .input-field {
+  width: calc(50% - 10px);
+}
+
+@media screen and (max-width: 767px) {
+  .row {
+    flex-direction: column;
+  }
+  .row .input-field {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.my-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 15px auto;
+  }
+
+  .my-button:hover {
+    background-color: #3e8e41;
+  }
+
+  .my-button:active {
+    background-color: #2e6c3e;
+  }

@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 15px;
+    padding: 5px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #013a63;
+    color: #fff;
+  }
+
+  .table-row{
+    color: #000;
+  }
+
+  .icon-delete a{
+    text-decoration: none;
+    color: #000;
+
+  }
+
+  .svg-icon{
+    height: 15px;
+    width: 15px;
+  }
+  
